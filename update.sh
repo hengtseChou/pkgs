@@ -1,6 +1,6 @@
 cd $(realpath $(dirname $0))
-pacman -Qqm > aur.txt
+pacman -Qqm > aur
 pacman -Qqe > explicit.tmp
-grep -Fxv -f base.txt explicit.tmp > extra.tmp
-grep -Fxv -f aur.txt extra.tmp > extra.txt
+grep -Fxv -f base explicit.tmp > extra.tmp
+grep -Fxv -f aur extra.tmp > extra
 rm *.tmp
