@@ -1,0 +1,16 @@
+base
+base-devel
+btrfs-progs
+efibootmgr
+gst-plugin-pipewire
+intel-ucode
+libpulse
+linux
+linux-firmware
+networkmanager
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+wireplumber
+zram-generator
