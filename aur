@@ -1,6 +1,7 @@
 aura
 btdu
 btrfs-assistant
+cava
 fcitx5-mcbopomofo-git
 git-extras
 libwireplumber-4.0-compat
@@ -19,4 +20,3 @@ visual-studio-code-bin
 vlc-git
 wlogout
 xwayland-satellite
-zotero-bin
