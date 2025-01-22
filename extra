@@ -15,6 +15,7 @@ fcitx5-configtool
 fcitx5-gtk
 fcitx5-qt
 fd
+figlet
 file-roller
 firefox
 font-manager
@@ -23,7 +24,9 @@ fzf
 git
 github-cli
 gnome-browser-connector
+gnome-calculator
 gnome-control-center
+gnome-logs
 gnome-shell
 gnome-terminal
 gnome-text-editor
