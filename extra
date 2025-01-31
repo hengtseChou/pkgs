@@ -7,6 +7,7 @@ cliphist
 dconf-editor
 docker
 dunst
+epiphany
 evince
 eza
 fastfetch
@@ -27,6 +28,7 @@ gnome-browser-connector
 gnome-calculator
 gnome-control-center
 gnome-logs
+gnome-menus
 gnome-shell
 gnome-terminal
 gnome-text-editor
