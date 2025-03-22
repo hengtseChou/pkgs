@@ -2,6 +2,7 @@ alacritty
 blueman
 brightnessctl
 btop
+cava
 chromium
 cliphist
 dconf-editor
@@ -26,9 +27,9 @@ git
 github-cli
 gnome-browser-connector
 gnome-calculator
+gnome-characters
 gnome-control-center
 gnome-logs
-gnome-menus
 gnome-shell
 gnome-terminal
 gnome-text-editor
@@ -68,6 +69,7 @@ tealdeer
 telegram-desktop
 timeshift
 trash-cli
+tree
 ttf-jetbrains-mono-nerd
 ttf-ubuntu-font-family
 ttf-ubuntu-mono-nerd
@@ -77,5 +79,6 @@ waybar
 xorg-server
 xorg-xinit
 xwayland-satellite
+zed
 zoxide
 zsh
