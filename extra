@@ -8,8 +8,6 @@ cliphist
 dconf-editor
 docker
 dunst
-epiphany
-evince
 eza
 fastfetch
 fcitx5
@@ -55,6 +53,7 @@ npm
 nwg-look
 pacman-contrib
 pamixer
+papers
 polkit-gnome
 power-profiles-daemon
 prettier
