@@ -1,4 +1,5 @@
 alacritty
+bat
 blueman
 brightnessctl
 btop
@@ -79,5 +80,6 @@ xorg-server
 xorg-xinit
 xwayland-satellite
 zed
+zip
 zoxide
 zsh
