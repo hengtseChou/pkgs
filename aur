@@ -2,11 +2,11 @@ aura
 btdu
 btrfs-assistant
 downgrade
+extension-manager
 fcitx5-mcbopomofo-git
 git-extras
 libwireplumber-4.0-compat
 minecraft-launcher
-nautilus-code
 nautilus-open-any-terminal
 neohtop
 paru
@@ -18,6 +18,5 @@ spicetify-cli
 spotify
 swaylock-effects
 turtle
-visual-studio-code-bin
 vlc-git
 wlogout
