@@ -2,7 +2,6 @@ aura
 btdu
 btrfs-assistant
 downgrade
-extension-manager
 fcitx5-mcbopomofo-git
 git-extras
 libwireplumber-4.0-compat
@@ -18,5 +17,4 @@ spicetify-cli
 spotify
 swaylock-effects
 turtle
-vlc-git
 wlogout

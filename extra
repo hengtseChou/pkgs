@@ -46,7 +46,7 @@ lazygit
 loupe
 man-db
 marker
-micro
+mission-center
 nano
 ncdu
 niri
@@ -64,6 +64,7 @@ rclone
 ripgrep
 rust
 shfmt
+showtime
 speedtest-cli
 starship
 swaybg
