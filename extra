@@ -38,7 +38,6 @@ go
 graphviz
 greetd-tuigreet
 gum
-hyperfine
 ifuse
 imagemagick
 jq
@@ -64,11 +63,11 @@ rclone
 ripgrep
 rust
 shfmt
-showtime
 speedtest-cli
 starship
 swaybg
 swayidle
+swww
 tealdeer
 telegram-desktop
 timeshift
@@ -83,6 +82,7 @@ uv
 waybar
 xorg-server
 xorg-xinit
+xwayland-satellite
 zed
 zip
 zoxide

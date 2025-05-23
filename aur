@@ -7,7 +7,6 @@ git-extras
 libwireplumber-4.0-compat
 minecraft-launcher
 nautilus-open-any-terminal
-neohtop
 paru
 peaclock
 pfetch
@@ -17,4 +16,5 @@ spicetify-cli
 spotify
 swaylock-effects
 turtle
+vlc-git
 wlogout
