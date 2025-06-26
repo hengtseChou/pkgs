@@ -42,6 +42,7 @@ ifuse
 imagemagick
 jq
 lazygit
+linux-firmware-intel
 loupe
 man-db
 marker
