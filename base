@@ -6,9 +6,8 @@ gst-plugin-pipewire
 intel-ucode
 libpulse
 linux
-linux-firmware
+linux-firmware-intel
 networkmanager
-pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
