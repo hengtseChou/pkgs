@@ -9,8 +9,8 @@ ROOT = Path(__file__).parent
 
 def diff(current, new):
     Diff = namedtuple("Diff", ["added", "removed"])
-    added = list(set(new).difference(set(current)))
-    removed = list(set(current).difference(set(new)))
+    added = list(set(new).difference(set(current))).sort()
+    removed = list(set(current).difference(set(new))).sort()
     return Diff(added=added, removed=removed)
 
 
@@ -44,7 +44,7 @@ def main():
     with open(str(ROOT / "extra"), "w") as f:
         f.write("\n".join(new_extra) + "\n")
 
-    commit = input("changes saved locally. commit and push? (Y/n)").strip().lower()
+    commit = input("changes saved locally. commit and push? (Y/n) ").strip().lower()
     if not commit:
         commit = "y"
     if commit not in {"y", "n"}:
