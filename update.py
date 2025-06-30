@@ -1,16 +1,26 @@
 #!/usr/bin/python
+"""
+This script tracks explicitly installed packages on an Arch Linux system.
+
+Packages are categorized into three groups: base, extra, and aur, with records stored locally and remotely in a GitHub repository.
+
+The script updates the local records to reflect the currently installed packages and prompts the user to commit and push the changes.
+"""
+
 import subprocess
 import sys
 from collections import namedtuple
 from pathlib import Path
 
+from typing_extensions import Iterable
+
 ROOT = Path(__file__).parent
 
 
-def diff(current, new):
+def diff(current: Iterable[str], new: Iterable[str]) -> tuple[str]:
     Diff = namedtuple("Diff", ["added", "removed"])
-    added = list(set(new).difference(set(current))).sort()
-    removed = list(set(current).difference(set(new))).sort()
+    added = [pkg for pkg in new if pkg not in current]
+    removed = [pkg for pkg in current if pkg not in new]
     return Diff(added=added, removed=removed)
 
 
